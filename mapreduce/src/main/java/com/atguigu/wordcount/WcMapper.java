@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
-public class WcMapper extends Mapper<LongWritable, Text,Text, IntWritable> {
+public class WcMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 
     private Text word = new Text();
     private IntWritable one = new IntWritable(1);

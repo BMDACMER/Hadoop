@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="decd3d67-a047-411f-9659-d949571c7915" name="Default Changelist" comment="" />
+    <list default="true" id="decd3d67-a047-411f-9659-d949571c7915" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/partition/MyPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/partition/PartitionerDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/MyPartitioner2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/SortDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/flow/FlowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/flow/FlowBean.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +36,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="154">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/partition/MyPartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileInputFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -30,17 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileRecordReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,10 +98,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/partition/PartitionerDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            <state relative-caret-position="426">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/MyPartitioner2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/SortDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,17 +166,36 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcReducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileInputFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileRecordReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/FlowBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/MyPartitioner2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/SortDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/partition/PartitionerDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/partition/MyPartitioner.java" />
       </list>
     </option>
   </component>
@@ -104,12 +220,16 @@
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,26 +263,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="inputformat" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaweb/IDEA/javaExercise" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -187,14 +298,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WholeFileDriver">
-    <configuration name="FlowDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.flow.FlowDriver" />
+  <component name="RunManager" selected="Application.PartitionerDriver">
+    <configuration name="OrderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.groupingcomparator.OrderDriver" />
       <module name="mapreduce" />
-      <option name="PROGRAM_PARAMETERS" value="d:\\input d:\\output" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.flow.*" />
+          <option name="PATTERN" value="com.atguigu.groupingcomparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,13 +312,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WcDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.wordcount.WcDriver" />
+    <configuration name="PartitionerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.partition.PartitionerDriver" />
       <module name="mapreduce" />
-      <option name="PROGRAM_PARAMETERS" value="d:\input d:\output" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.wordcount.*" />
+          <option name="PATTERN" value="com.atguigu.partition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortDriver (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.writablecomparable2.SortDriver" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.writablecomparable2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.writablecomparable.SortDriver" />
+      <module name="mapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.writablecomparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,15 +365,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FlowDriver" />
-      <item itemvalue="Application.WcDriver" />
       <item itemvalue="Application.WholeFileDriver" />
+      <item itemvalue="Application.SortDriver" />
+      <item itemvalue="Application.SortDriver (1)" />
+      <item itemvalue="Application.OrderDriver" />
+      <item itemvalue="Application.PartitionerDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitionerDriver" />
+        <item itemvalue="Application.OrderDriver" />
+        <item itemvalue="Application.SortDriver (1)" />
+        <item itemvalue="Application.SortDriver" />
         <item itemvalue="Application.WholeFileDriver" />
-        <item itemvalue="Application.FlowDriver" />
-        <item itemvalue="Application.WcDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -253,18 +392,20 @@
       <option name="presentableId" value="Default" />
       <updated>1592381566758</updated>
       <workItem from="1592381572610" duration="3603000" />
-      <workItem from="1592390452051" duration="5073000" />
+      <workItem from="1592390452051" duration="5389000" />
+      <workItem from="1592461909152" duration="8090000" />
+      <workItem from="1592527778752" duration="7980000" />
+      <workItem from="1592548099385" duration="4322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8676000" />
+    <option name="totallyTimeSpent" value="29384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19436997" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22184986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -273,7 +414,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30975956" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26345608" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -317,60 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/conf/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -382,20 +469,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowReducer.java">
+    <entry file="jar://D:/software/java/src.zip!/java/io/DataOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="379">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        <state relative-caret-position="455">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/wordcount/WcDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -404,18 +508,244 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="308">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="45" column="64" selection-start-line="45" selection-start-column="64" selection-end-line="45" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/flow/FlowReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/FlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.2/hadoop-common-2.7.2.jar!/org/apache/hadoop/io/NullWritable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable/SortDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/MyPartitioner2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/writablecomparable2/SortDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/groupingcomparator/OrderDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.2/hadoop-mapreduce-client-core-2.7.2.jar!/org/apache/hadoop/mapred/MapTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/partition/PartitionerDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/partition/MyPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/inputformat/WholeFileRecordReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

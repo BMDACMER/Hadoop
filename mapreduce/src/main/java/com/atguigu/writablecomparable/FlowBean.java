@@ -1,31 +1,33 @@
-package com.atguigu.flow;
+package com.atguigu.writablecomparable;
 
-import org.apache.hadoop.io.Writable;
+import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
-public class FlowBean implements Writable {
+public class FlowBean implements WritableComparable<FlowBean> {
 
     private long upFlow;
     private long downFlow;
     private long sumFlow;
 
-    // 反序列化时，需要反射调用空参构造函数，所以必须有空参构造
-    FlowBean() {
+    public FlowBean() {
+    }
 
+    @Override
+    public String toString() {
+        return "FlowBean{" +
+                "upFlow=" + upFlow +
+                ", downFlow=" + downFlow +
+                ", sumFlow=" + sumFlow +
+                '}';
     }
 
     public void set(long upFlow, long downFlow) {
         this.upFlow = upFlow;
         this.downFlow = downFlow;
         this.sumFlow = upFlow + downFlow;
-    }
-
-    @Override
-    public String toString() {
-        return upFlow + "\t" + downFlow +"\t" + sumFlow;
     }
 
     public long getUpFlow() {
@@ -52,6 +54,11 @@ public class FlowBean implements Writable {
         this.sumFlow = sumFlow;
     }
 
+    @Override
+    public int compareTo(FlowBean o) {
+        return Long.compare(o.sumFlow, this.sumFlow);
+    }
+
     /**
      * 序列化方法
      * @param dataOutput 框架给我们提供的数据出口
@@ -65,8 +72,8 @@ public class FlowBean implements Writable {
     }
 
     /**
-     * 反序列化方法
-     * @param dataInput 框架提供的数据来源
+     * 反序列化
+     * @param dataInput  框架提供的数据来源
      * @throws IOException
      */
     @Override
