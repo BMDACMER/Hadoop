@@ -1,7 +1,7 @@
 package com.atguigu.hbase.test;
 
 import com.atguigu.hbase.tools.ConnectionUtil;
-import com.atguigu.hbase.tools.TableUtil;
+import com.atguigu.hbase.tools.DataUtil;
 import org.apache.hadoop.hbase.client.Connection;
 import org.junit.After;
 import org.junit.Before;
@@ -12,9 +12,9 @@ import java.io.IOException;
 /**
  * @author:guohao
  * @email 1163753605@qq.com
- * @date: 2020/7/2 22:48
+ * @date: 2020/7/3 11:28
  */
-public class TestTableUtil {
+public class TestDataUtil {
     private Connection conn;
 
     @Before
@@ -28,21 +28,17 @@ public class TestTableUtil {
     }
 
     @Test
-    public void testTableExists() throws IOException {
-        System.out.println(TableUtil.ifTableExists(conn, "t1", null));
-    }
+    public void testPut() throws IOException {
 
-    @Test
-    public void testCreateTable() throws IOException {
-
-        System.out.println(TableUtil.createTable(conn, "t1", null,"cf1","cf2"));
+        DataUtil.put(conn, "t1", null, "b1", "cf1", "name", "jack");
 
     }
 
     @Test
-    public void testDropTable() throws IOException {
+    public void testGet() throws IOException {
 
-        System.out.println(TableUtil.dropTable(conn, "t2", null));
+        DataUtil.get(conn, "t1", "ns1", "r1");
 
     }
+
 }
